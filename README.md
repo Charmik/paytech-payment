@@ -1,3 +1,8 @@
+## Requirements
+
+- Java 21
+- Maven
+
 ## Running the Service
 ```bash
 mvn spring-boot:run
