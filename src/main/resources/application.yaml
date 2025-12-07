@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+paytech:
+  api:
+    url: ${PAYTECH_API_URL:https://engine-sandbox.pay.tech/api/v1/payments}
+    token: ${PAYTECH_API_TOKEN:cAmmvalAikARkB81fgxgMtnMbEdNbuWa}
+
+spring:
+  mvc:
+    favicon:
+      enabled: false
